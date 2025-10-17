@@ -1,12 +1,23 @@
 <html>
     <head>
-        <title>My First story page</title>
+        <title>My First Page</title>
+
+         <style> 
+        
+        
+              body {
+  background-color: #f5deb3;
+}
+        </style>
+           <link rel="stylesheet" type="text/css" href="main.css">
+           <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     </head>
     <body>
-
-<a href="index.html">Home</a>
-<a href="story.html">Story</a>
-<a href="contactus.html">Contact Us</a>
+<span>
+<a href="index.html" style="text-decoration:none" target="_blank">Home</a>
+<a href="story.html" style="text-decoration:none" target="_blank">Story</a>
+<a href="contactus.html" style="text-decoration:none" target="_blank">Contact Us</a>
+</span>
 
     <h2>Contact Us</h2>
         <p>If you have any questions or comments, please reach out to us.</p>
@@ -16,11 +27,13 @@
     Email: <input type="text" id="lName"><br>
     
 <h3>accept terms of agreement</h3>
+<br />
 
 <input type="checkbox" name="Yes" value="mountain">Yes<br>
     <input type="checkbox" name="NO" value="road">No<br>
  
-    <button id="mySubmit" type="button">Submit</button>
+   <input type="submit" id="submitBtn" value="Send">
+
   </form>
 
     </body>
