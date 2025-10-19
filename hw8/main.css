@@ -1,0 +1,38 @@
+h3 {
+  font-family: 'Comic Sans MS', cursive;
+  color: hotpink;
+  transform: rotate(-2deg);
+  letter-spacing: 2px;
+}
+h1 {
+  font-family: 'Georgia', serif; 
+  font-weight: bold;
+}
+
+p {
+  font-family: 'Arial', sans-serif;
+  color: blue;
+}
+
+h2 {
+  text-decoration: underline;
+  color : orange
+}
+
+.green {
+  color: rgb(243, 7, 11);
+  font-style: italic;
+}
+#submitBtn {
+  background-color: #8b4513; 
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#submitBtn:hover {
+  background-color: #a0522d; 
+}
